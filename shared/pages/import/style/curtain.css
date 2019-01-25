@@ -1,0 +1,118 @@
+html, body {
+  background: transparent;
+}
+
+#curtain {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+#curtain form {
+  top: var(--statusbar-height) !important;
+}
+
+#curtain h1 {
+  background-color: var(--color-gs00);
+}
+
+#curtain form[role="dialog"][data-type="confirm"] p > span {
+  color: var(--color-gs100);
+}
+
+form[role="dialog"][data-type="confirm"] > section {
+  display: none;
+}
+
+form[role="dialog"][data-type="confirm"][data-state="alert"] menu #ok {
+  margin-left: 0;
+  display: inline-block;
+  width: 100%;
+}
+
+form[role="dialog"][data-type="confirm"][data-state="wait"] #cancel,
+form[role="dialog"][data-type="confirm"][data-state="progress"] #cancel {
+  width: 100%;
+}
+
+form[role="dialog"][data-type="confirm"][data-state="wait"] #retry {
+  display: none;
+}
+
+form[role="dialog"][data-type="confirm"][data-state="progress"] #progress {
+  display: inline-block;
+}
+
+form.no-menu[role="dialog"][data-type="confirm"] menu,
+form[role="dialog"][data-type="confirm"][data-state="progress"] menu #retry,
+form[role="dialog"][data-type="confirm"][data-state="alert"] menu #retry,
+form[role="dialog"][data-type="confirm"][data-state="alert"] menu #cancel,
+form[role="dialog"][data-type="confirm"]:not([data-state="alert"]) menu #ok,
+form[role="dialog"][data-type="confirm"][data-state="message"] menu {
+  display: none;
+}
+
+form[role="dialog"][data-type="confirm"][data-state="error"] menu #retry,
+form[role="dialog"][data-type="confirm"][data-state="timeout"] menu #retry {
+  -moz-margin-start: 1rem;
+}
+
+/* Sections */
+
+form[role="dialog"][data-type="confirm"][data-state="wait"] #wait {
+  display: inline-block;
+}
+
+form[role="dialog"][data-type="confirm"][data-state="message"] #message {
+  display: inline-block;
+}
+
+form[role="dialog"][data-type="confirm"][data-state="error"] #error {
+  display: inline-block;
+}
+
+form[role="dialog"][data-type="confirm"][data-state="timeout"] #timeout {
+  display: inline-block;
+}
+
+form[role="dialog"][data-type="confirm"][data-state="alert"] #alert {
+  display: inline-block;
+}
+
+p[role="status"] {
+  text-align: center;
+}
+
+#progress p[role="status"] {
+  text-align: start;
+}
+
+form[role="dialog"][data-type="confirm"][data-state="wait2"] #wait2 {
+  display: inline-block;
+}
+
+#wait2 {
+  height: 100%;
+  width: 100%;
+}
+
+#wait2 p {
+  height: 3rem;
+  width: calc(100% - 3rem);/*3 rem paddings left and right*/
+  margin-top: calc(50% - 1.5rem - 2rem);/*screen width - block with - softkey width divided to 2 */
+}
+
+#wait2 p span{
+  text-align: left;
+  width: 100%;
+  border-bottom: 0.3rem solid #000;
+  color: #000;
+  padding-bottom: 0.2rem;
+  font-size: 1.7rem;
+}
+#wait2Msg {
+  border-bottom: 0.1rem solid #000;
+}

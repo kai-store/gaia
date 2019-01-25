@@ -1,0 +1,72 @@
+#action_list {
+  background: var(--color-gs00);
+  width: 100%;
+  height: auto;
+  bottom: 0;
+  position: absolute;
+  z-index: 105;
+  overflow-y: scroll;
+}
+
+#action_list.hidden {
+  display: none;
+}
+
+#action_list > form {
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+
+#action_list > form.visible {
+  display: block;
+}
+
+#action_list > form > menu {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#action_list > form > menu > button {
+  margin: 0.2rem 0 0.3rem 1rem;
+  background: var(--color-gs20);
+  border: none;
+  border-radius: 0.2rem;
+  width: calc(100% - 2rem);
+  text-align: center;
+  height: 3.5rem;
+}
+
+#action_list > form > .header {
+  padding: .5rem;
+}
+
+#action_list.popup {
+  background: rgba(0, 0, 0, 0.8);
+  bottom: var(--statusbar-height);
+  height: calc(100% - var(--statusbar-height));
+}
+
+#action_list.popup > form {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: var(--softkeybar-height);
+  color: var(--color-gs90);
+}
+
+#action_list.popup > form > .header {
+  background: var(--color-gs20);
+}
+
+#action_list.popup > form > menu > button {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  background: var(--color-gs00);
+  text-align: left;
+  height: 4.8rem;
+  width: 100%;
+}

@@ -1,0 +1,54 @@
+
+gaia-gc-page {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  outline: none;
+}
+
+gaia-gc-page.hidden,
+#up-icon.hidden,
+#down-icon.hidden {
+  display: none;
+}
+
+gaia-gc-page > div {
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+
+#up-icon,
+#down-icon {
+  display: block;
+  position: absolute;
+  left: calc(100% / 2 - 1.5rem);
+  height: 3rem;
+  width: 3rem;
+  line-height: 3rem;
+  color: #000000;
+  font-size: 2.6rem;
+  text-shadow: none;
+  text-align: center;
+  border: none;
+  z-index: 10;
+}
+
+#up-icon {
+  top: 0;
+}
+
+#down-icon {
+  bottom: 0;
+}
+
+#up-icon.active,
+#down-icon.active {
+  color: #3333EE;
+}

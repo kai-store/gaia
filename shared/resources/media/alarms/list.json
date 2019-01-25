@@ -1,0 +1,14 @@
+{
+"ac_awake.opus": {"l10nID": "ac_awake_opus"},
+"ac_crystalize.opus": {"l10nID": "ac_crystalize_opus"},
+"ac_cycle.opus": {"l10nID": "ac_cycle_opus"},
+"ac_digicloud.opus": {"l10nID": "ac_digicloud_opus"},
+"ac_humming_waves.opus": {"l10nID": "ac_humming_waves_opus"},
+"ac_into_the_void.opus": {"l10nID": "ac_into_the_void_opus"},
+"ac_lightly.opus": {"l10nID": "ac_lightly_opus"},
+"ac_mobile.opus": {"l10nID": "ac_mobile_opus"},
+"ac_pinger.opus": {"l10nID": "ac_pinger_opus"},
+"ac_skip.opus": {"l10nID": "ac_skip_opus"},
+"ac_tri.opus": {"l10nID": "ac_tri_opus"},
+"ac_universal.opus": {"l10nID": "ac_universal_opus"}
+}

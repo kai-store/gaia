@@ -1,0 +1,98 @@
+.skbar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  right: 0;
+  background-color: var(--color-gs20, #dadada);
+  color: var(--color-gs90, #323232);
+  border: 0;
+  z-index: 99999;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.skbar div {
+  width: 100%;
+  top: 0;
+}
+
+.skbar div:first-child {
+  position: absolute;
+  left: 0.2rem;
+  text-align: left;
+}
+
+.skbar div:last-child {
+  position: absolute;
+  right: 0.2rem;
+  text-align: right;
+}
+
+.skbar:not(.visible) {
+  display: none;
+}
+
+.none-paddings {
+  border: none;
+  padding: 0;
+  width: 100%;
+  margin: 0;
+}
+
+.sk-button {
+  color: var(--color-gs90, #323232);
+  font-size: 1.4rem;
+  font-weight: 600;
+  background: transparent;
+  padding: 0.1rem;
+  margin: 0;
+  height: var(--softkeybar-height, 3rem);
+  border: none;
+}
+
+.sk-button [data-icon] {
+  font-size: 2rem;
+  color: var(--color-gs70, #aaaaaa);
+}
+
+.sk-button [data-icon=ok] {
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+}
+
+.sk-button.active {
+  background: #00aacc;
+}
+
+.sk-button[disabled] {
+  background-color: transparent;
+  color: #c7c7c7;
+  pointer-events: auto;
+}
+
+button.sk-button {
+  max-width: 55%;
+}
+
+button#software-keys-left {
+  text-align: left;
+}
+
+button#software-keys-right {
+  text-align: right;
+}
+
+/* Pressed */
+input[type="button"][class="sk-button"]:active {
+  background: #00aacc;
+}
+
+.group-menu > menu > button {
+  font-style: normal;
+  line-height: var(--softkeybar-height, 3rem);
+  display: inline-block;
+}
+
+* {
+  outline: none;
+}

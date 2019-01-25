@@ -1,0 +1,77 @@
+gaia-paragraph {
+  display: block;
+  color: var(--color-gs90);
+  outline: none;
+  margin: 0;
+  padding: 0;
+}
+
+gaia-paragraph:focus {
+  background-color: var(--highlight-color);
+  color: var(--color-gs00);
+}
+
+.focus .next {
+  color: var(--color-gs00);
+}
+
+.container {
+  position: relative;
+  height: calc(100% - 2rem);
+  width: calc(100% - 2rem);
+  border: 0;
+  padding: 1rem;
+  overflow: hidden;
+  display: block;
+}
+
+.showMore.container {
+  padding: 1rem 1rem 0.5rem 1rem;
+  height: calc(100% - 1.5rem);
+}
+
+.txtview {
+  display: block;
+  height: 100%;
+  margin-bottom: 0.5rem;
+  text-overflow: clip;
+  overflow: hidden;
+}
+
+.showMore .txtview {
+  height: calc(100% - 4.2rem);
+}
+
+
+.more-container {
+  position: relative;
+  display: none;
+  width: 100%;
+  height: 3.2rem;
+  bottom: 0px;
+}
+
+.showMore .more-container {
+  display: block;
+}
+
+.more {
+  float: right;
+  width: auto;
+  right: 3.2rem;
+  height: 3.2rem;
+  line-height: 3.2rem;
+  text-align: right;
+  position: absolute;
+}
+
+.next {
+  float: right;
+  width: auto;
+  right: -0.5rem;
+  height: 3.2rem;
+  line-height: 3.2rem;
+  font-size: 3.2rem;
+  color: var(--color-gs45);
+  position: absolute;
+}

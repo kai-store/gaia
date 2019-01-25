@@ -1,0 +1,30 @@
+{
+  "name": "gaia-slider",
+  "version": "0.1.0",
+  "homepage": "https://github.com/gaia-components/gaia-slider",
+  "license": "MIT",
+  "main": "gaia-slider.js",
+  "dependencies": {
+    "gaia-component": "../gaia-component/gaia-component.js"
+  },
+  "devDependencies": {
+    "bower": "^1.4.1",
+    "jshint": "^2.7.0",
+    "browserify": "^5.11.2"
+  },
+  "scripts": {
+    "install": "bower install",
+    "lint": "./node_modules/jshint/bin/jshint gaia-slider.js test/*.js",
+    "build": "mkdir -p dist && browserify gaia-slider.js --outfile ./dist/gaia-slider.js --standalone GaiaSlider"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gaia-components/gaia-slider.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gaia-components/gaia-slider/issues"
+  },
+  "browser": {
+    "gaia-component": "../gaia-component/gaia-component.js"
+  }
+}

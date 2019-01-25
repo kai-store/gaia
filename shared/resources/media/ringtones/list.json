@@ -1,0 +1,20 @@
+{
+  "ringer_azalea.ogg": {"l10nID": "ringer_azalea"},
+  "ringer_bloom.ogg": {"l10nID": "ringer_bloom"},
+  "ringer_blove.ogg": {"l10nID": "ringer_blove"},
+  "ringer_city_lights.ogg": {"l10nID": "ringer_city_lights"},
+  "ringer_dots.ogg": {"l10nID": "ringer_dots"},
+  "ringer_flow.ogg": {"l10nID": "ringer_flow"},
+  "ringer_fountain.ogg": {"l10nID": "ringer_fountain"},
+  "ringer_fresh.ogg": {"l10nID": "ringer_fresh"},
+  "ringer_illuminate.ogg": {"l10nID": "ringer_illuminate"},
+  "ringer_incoming_string.ogg": {"l10nID": "ringer_incoming"},
+  "ringer_silvery.ogg": {"l10nID": "ringer_silvery"},
+  "ringer_now_or_never.ogg": {"l10nID": "ringer_now_or_never"},
+  "ringer_primary.ogg": {"l10nID": "ringer_primary"},
+  "ringer_pure_guitar.ogg": {"l10nID": "ringer_pure_guitar"},
+  "ringer_rounded.ogg": {"l10nID": "ringer_rounded"},
+  "ringer_spring.ogg": {"l10nID": "ringer_spring"},
+  "ringer_stargazer.ogg": {"l10nID": "ringer_stargazer"},
+  "ringer_vaca.ogg": {"l10nID": "ringer_vaca"}
+}

@@ -1,0 +1,40 @@
+#t9bar {
+    overflow: hidden;
+    width: calc(100% - 1cm);
+    bottom: 40px;
+    background: white;
+    position: absolute;
+    z-index: 999999;
+    border: 1px solid grey;
+    left: 0px;
+    color: black;
+}
+#content {
+    width: calc(100%);
+    font-size: 14pt;
+    text-align: left;
+    white-space: nowrap;
+}
+#container {
+    overflow: hidden;
+    width: calc(100% - 0.5cm);
+}
+#content div {
+    display: inline-block;
+    background: white;
+    border-right: 1px solid grey;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#arrows {
+    background: white;
+    font-size: 14pt;
+    width: 1cm;
+    bottom: 40px;
+    right: 0px;
+    border: 1px solid grey;
+    position: absolute;
+    z-index: 999999;
+    color: black;
+    text-align: center;
+}

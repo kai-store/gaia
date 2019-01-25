@@ -1,0 +1,34 @@
+html {
+  font-size: 10px;
+  font-family: "Open Sans";
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--header-background);
+}
+
+
+.fullscreen {
+  position: absolute;
+  left: 0;
+  top: var(--statusbar-height);
+  height: calc(100% - var(--statusbar-softkeybar-height));
+  width: 100%;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--color-gs00);
+}
+
+.fullTextView {
+  left: 0;
+  top: 0;
+  height: calc(100% - 2rem);
+  color: var(--color-gs90);
+  overflow-y: auto;
+  padding: 1rem;
+}
